@@ -6,11 +6,23 @@
 body{
     width: 512px;
     margin: 0 auto;
+    background-image: url("./assets/background.png");
+    background-size: cover;
 }
 .banner-img{
     width: 512px;
 }
-main{
-    background-image: url("./assets/background.png");
-    background-size: cover;
+.download-section{
+    border: 1px solid black;
+    margin: 50px;
+    display: grid;
+    justify-content: center;
+}
+.section-button{
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 15px;
 }
