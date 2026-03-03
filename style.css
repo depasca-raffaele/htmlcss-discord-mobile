@@ -42,7 +42,7 @@ body{
     text-align: center;
     padding: 20px;
     text-transform: uppercase;
-    color: var(--text-color);
+    color: white;
     text-shadow: 6px 1px black;
 }
 .card-title{
@@ -52,16 +52,18 @@ body{
     color: white;
     text-shadow: 6px 1px black;
     display: inline-block;
-    text-align: center;
+    text-align: justify;
 }
 .card-text{
     color: white;
     font-family: "DM Sans", sans-serif;
+    padding: 20px;
 }
 .text{
      font-family: "DM Sans", sans-serif;
      color: white;
      padding: 15px;
+     
 }
 .card{
     border: 2px solid black;
