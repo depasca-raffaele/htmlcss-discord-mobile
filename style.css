@@ -7,3 +7,10 @@ body{
     width: 512px;
     margin: 0 auto;
 }
+.banner-img{
+    width: 512px;
+}
+main{
+    background-image: url("./assets/background.png");
+    background-size: cover;
+}
