@@ -6,8 +6,8 @@
 body{
     width: 512px;
     margin: 0 auto;
-    background-image: url("./assets/background.png");
-    background-size: cover;
+    background-color: #191d7b;
+    
 }
 //variabili
 :root{
@@ -67,7 +67,8 @@ body{
 }
 .card{
     border: 2px solid black;
-    background-color: rgba(132, 138, 229, 0.552);
+    background-image: url("./assets/background.png");
+    background-size: cover;
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 80px;
