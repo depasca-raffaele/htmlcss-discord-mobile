@@ -26,7 +26,6 @@ body{
     width: 512px;
 }
 .download-section{
-    border: 1px solid black;
     margin: 50px;
     display: grid;
     justify-content: center;
@@ -51,6 +50,7 @@ body{
     text-transform: uppercase;
     color: white;
     text-shadow: 6px 1px black;
+    display: inline;
 }
 .card-text{
     color: white;
@@ -59,4 +59,14 @@ body{
 .text{
      font-family: "DM Sans", sans-serif;
      color: white;
+     padding: 15px;
+}
+.card{
+    border: 2px solid black;
+    background-color: rgba(132, 138, 229, 0.552);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 80px;
+    border-radius: 50px;
+
 }
