@@ -9,6 +9,19 @@ body{
     background-image: url("./assets/background.png");
     background-size: cover;
 }
+//variabili
+:root{
+    --text-color: #FFFFF;
+}
+
+//utility classes
+.dm-sans-font{
+    font-family: "DM Sans", sans-serif;
+}
+.sigmar-font{
+    font-family: "Sigmar", sans-serif;
+}
+
 .banner-img{
     width: 512px;
 }
@@ -25,4 +38,25 @@ body{
     margin-bottom: 10px;
     height: 40px;
     border-radius: 15px;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    text-shadow: 6px 1px black;
+}
+.card-title{
+    padding: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 6px 1px black;
+}
+.card-text{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+.text{
+     font-family: "DM Sans", sans-serif;
+     color: white;
 }
