@@ -46,11 +46,13 @@ body{
     text-shadow: 6px 1px black;
 }
 .card-title{
+    margin-top: 20px;
     padding: 20px;
     text-transform: uppercase;
     color: white;
     text-shadow: 6px 1px black;
-    display: inline;
+    display: inline-block;
+    text-align: center;
 }
 .card-text{
     color: white;
