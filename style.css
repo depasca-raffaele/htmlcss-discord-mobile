@@ -37,6 +37,7 @@ body{
     margin-bottom: 10px;
     height: 40px;
     border-radius: 15px;
+    font-family: "DM Sans", sans-serif;
 }
 .title{
     text-align: center;
@@ -99,4 +100,8 @@ body{
     position: relative;
     left: 50%;
     translate: -50%;
+}
+.button-color{
+    background-color: #5865f2;
+    color: white;
 }
